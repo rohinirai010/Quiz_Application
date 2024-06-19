@@ -1,0 +1,92 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+    background-color: #f0f0f0;
+}
+
+.question-container {
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    text-align: left;
+}
+
+.answer.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.answer:hover {
+    background-color: #d0d0d0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.previous-button,
+.next-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: #0056b3;
+}
+
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.para{
+    font-size: 2rem;
+}
